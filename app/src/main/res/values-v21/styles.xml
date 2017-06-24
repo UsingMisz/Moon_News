@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+        <style name="LoginTextView">
+                <item name="android:layout_centerInParent">true</item>
+                <item name="android:layout_marginLeft">36dp</item>
+                <item name="android:layout_marginRight">36dp</item>
+                <item name="android:textColor">@color/colorAccent</item>
+                <item name="android:colorControlActivated">@color/colorAccent</item>
+        </style>
+
+</resources>

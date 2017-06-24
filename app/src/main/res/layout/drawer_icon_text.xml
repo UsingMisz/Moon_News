@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="16dp"></LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:id="@+id/DrawerHome">
+
+        <ImageView
+            style="@style/DrawerButton"
+            android:background="@mipmap/drawer_home" />
+
+        <TextView
+            style="@style/DrawerTextView"
+            android:text="@string/Home" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:id="@+id/DrawerFavourites">
+
+        <ImageView
+            style="@style/DrawerButton"
+            android:background="@mipmap/star" />
+
+        <TextView
+            style="@style/DrawerTextView"
+            android:text="@string/Favoutites" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:id="@+id/DrawerColor">
+
+        <ImageView
+            style="@style/DrawerButton"
+            android:background="@mipmap/color" />
+
+        <TextView
+            style="@style/DrawerTextView"
+            android:text="@string/Color" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:id="@+id/DrawerHistory">
+
+        <ImageView
+            style="@style/DrawerButton"
+            android:background="@mipmap/history" />
+
+        <TextView
+            style="@style/DrawerTextView"
+            android:text="@string/History" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="16dp">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            android:layout_centerVertical="true"
+           />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_centerVertical="true"
+            android:text="Subheader"
+            android:textSize="14sp"
+            android:alpha="0.54"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:id="@+id/DrawerShop">
+
+        <ImageView
+            style="@style/DrawerButton"
+            android:background="@mipmap/shop" />
+
+        <TextView
+            style="@style/DrawerTextView"
+            android:text="@string/Shop" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:id="@+id/DrawerTop">
+
+        <ImageView
+            style="@style/DrawerButton"
+            android:background="@mipmap/win" />
+
+        <TextView
+            style="@style/DrawerTextView"
+            android:text="@string/top" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:id="@+id/DrawerSetting">
+
+        <ImageView
+            style="@style/DrawerButton"
+            android:background="@mipmap/setting" />
+
+        <TextView
+            style="@style/DrawerTextView"
+            android:text="@string/setting" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>
+</ScrollView>
+

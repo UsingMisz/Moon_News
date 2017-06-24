@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2"
+        android:background="@mipmap/content_man_bg01"
+        android:elevation="16dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/content_man_touxiang"/>
+
+        <TextView
+            android:id="@+id/man_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:alpha="0.86"
+            android:layout_below="@id/content_man_touxiang"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/man_favourites"
+            android:layout_weight="1">
+
+            <ImageView
+                style="@style/content_man_Button"
+                android:background="@mipmap/star_night"
+                android:id="@+id/content_man_star"/>
+            <TextView
+                style="@style/content_man_textview"
+                android:text="@string/Favoutites"
+                android:layout_below="@id/content_man_star"/>
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.45"
+            >
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="22dp"
+                android:layout_marginBottom="15dp"
+                android:background="@color/grey"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/man_wallet"
+            android:layout_weight="1">
+
+            <ImageView
+                style="@style/content_man_Button"
+                android:background="@mipmap/wallet"
+                android:id="@+id/content_man_wallet"/>
+            <TextView
+                style="@style/content_man_textview"
+                android:text="@string/Wallet"
+                android:layout_below="@id/content_man_wallet"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.45"
+           >
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="22dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/grey"
+            />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/man_Shop"
+            android:layout_weight="1">
+
+            <ImageView
+                style="@style/content_man_Button"
+                android:background="@mipmap/shop01"
+                android:id="@+id/content_man_shop"/>
+            <TextView
+                style="@style/content_man_textview"
+                android:text="@string/Shop"
+                android:layout_below="@id/content_man_shop"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+<include layout="@layout/fragment_content_man_down"/>
+
+    </LinearLayout>
+
+</LinearLayout>

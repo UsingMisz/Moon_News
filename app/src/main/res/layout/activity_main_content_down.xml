@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_below="@id/Main_Fragment_Layout"
+    android:background="@android:color/white"
+    android:elevation="16dp"
+    android:orientation="vertical">
+
+<TextView
+    style="@style/content_man_down_line"
+    android:alpha="1"
+    />
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/news"
+                style="@style/content_down_button"
+                android:background="@mipmap/main_content_news_01"
+                android:onClick="news" />
+
+            <TextView
+                style="@style/content_down_textview"
+                android:layout_below="@id/news"
+                android:text="@string/news" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/find"
+                style="@style/content_down_button"
+                android:background="@mipmap/main_content_find_01"
+                android:onClick="find" />
+
+            <TextView
+                style="@style/content_down_textview"
+                android:layout_below="@id/find"
+                android:text="@string/find" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/talk"
+                style="@style/content_down_button"
+                android:background="@mipmap/main_content_talk_01"
+                android:onClick="talk" />
+
+            <TextView
+                style="@style/content_down_textview"
+                android:layout_below="@id/talk"
+                android:text="@string/talk" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/man"
+                style="@style/content_down_button"
+                android:background="@mipmap/main_content_man_01"
+                android:onClick="man" />
+
+            <TextView
+                style="@style/content_down_textview"
+                android:layout_below="@id/man"
+                android:text="@string/person" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="main.zzy.com.moon_news.Personal_Activity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/personal_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:elevation="16dp"
+        android:titleTextColor="@string/personal">
+    </android.support.v7.widget.Toolbar>
+
+
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="47dp"
+    android:layout_weight="0.1"
+    android:id="@+id/personal_picture">
+<TextView
+    style="@style/personal_textview"
+    android:text="@string/touxiang"
+    android:layout_centerVertical="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/personal_icon"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+      style="@style/personal_down_line"/>
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_weight="0.1"
+        android:id="@+id/personal_name"
+        >
+        <TextView
+            style="@style/personal_textview"
+            android:text="@string/nicheng"
+            android:layout_centerVertical="true" />
+        <TextView
+        style="@style/personal_i_text"
+            android:id="@+id/dialog_text_name"/>
+        <TextView
+            style="@style/personal_down_line"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_weight="0.1"
+        android:id="@+id/personal_sex"
+        >
+        <TextView
+            style="@style/personal_textview"
+            android:text="@string/xingbie"
+            android:layout_centerVertical="true" />
+        <TextView
+            style="@style/personal_i_text"
+            android:id="@+id/personal_sex_text"/>
+        <TextView
+            style="@style/personal_down_line"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_weight="0.1"
+        android:id="@+id/personal_birthday"
+        >
+        <TextView
+            style="@style/personal_textview"
+            android:text="@string/birthday"
+            android:layout_centerVertical="true" />
+        <TextView
+            style="@style/personal_i_text"
+            android:id="@+id/dialog_text_birthday"/>
+        <TextView
+            style="@style/personal_down_line"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_weight="0.1"
+        android:id="@+id/personal_day"
+        >
+        <TextView
+            style="@style/personal_textview"
+            android:text="@string/qianming"
+            android:layout_centerVertical="true" />
+        <TextView
+            style="@style/personal_i_text"
+            android:id="@+id/dialog_text_day"/>
+        <TextView
+            style="@style/personal_down_line"/>
+    </RelativeLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="32dp"
+    android:layout_weight="0.0001"
+    android:background="@color/shallow_grey">
+    <TextView
+        style="@style/personal_down_line"/>
+</RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_weight="0.8"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_weight="0.1"
+            >
+            <TextView
+                style="@style/personal_textview"
+                android:text="@string/xueli"
+                android:layout_centerVertical="true" />
+            <TextView
+                style="@style/personal_down_line"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_weight="0.1"
+            android:id="@+id/personal_work"
+            >
+            <TextView
+                style="@style/personal_textview"
+                android:text="@string/hangye"
+                android:layout_centerVertical="true" />
+            <TextView
+                style="@style/personal_down_line"/>
+        </RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="32dp"
+    android:layout_weight="0.001"
+    android:background="@color/shallow_grey">
+
+    <TextView
+        style="@style/personal_down_line"/>
+</RelativeLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="32dp"
+    android:layout_weight="0.2">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="退出登录"
+        android:onClick="personal_button"
+        android:id="@+id/personal_button"/>
+</RelativeLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
