@@ -11,6 +11,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
+
+import main.zzy.com.moon_news.R;
 import main.zzy.com.moon_news.com.wq.photo.mode.Images;
 import java.util.ArrayList;
 import java.util.List;

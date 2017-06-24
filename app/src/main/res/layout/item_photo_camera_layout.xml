@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:padding="1dp"
     android:orientation="vertical">
-    <!--<com.wq.photo.widget.CameraPreview-->
+    <!--<CameraPreview-->
     <!--android:id="@+id/camer_view"-->
     <!--android:visibility="gone"-->
     <!--android:layout_width="match_parent"-->

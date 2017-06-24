@@ -20,6 +20,7 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 
+import main.zzy.com.moon_news.R;
 import main.zzy.com.moon_news.com.wq.photo.util.StatusBarCompat;
 import main.zzy.com.moon_news.com.wq.photo.widget.PickConfig;
 import main.zzy.com.moon_news.com.yalantis.ucrop.UCrop;

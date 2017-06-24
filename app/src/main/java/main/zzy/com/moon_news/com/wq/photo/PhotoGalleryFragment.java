@@ -23,6 +23,7 @@ import android.widget.ListPopupWindow;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import main.zzy.com.moon_news.R;
 import main.zzy.com.moon_news.com.wq.photo.adapter.FloderAdapter;
 import main.zzy.com.moon_news.com.wq.photo.adapter.PhotoAdapter;
 import main.zzy.com.moon_news.com.wq.photo.mode.ImageFloder;

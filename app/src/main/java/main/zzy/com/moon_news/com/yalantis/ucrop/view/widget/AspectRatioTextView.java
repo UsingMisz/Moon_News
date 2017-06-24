@@ -16,7 +16,8 @@ import android.util.AttributeSet;
 import android.view.Gravity;
 import android.widget.TextView;
 
-import com.wq.photo.R;
+
+import main.zzy.com.moon_news.R;
 import main.zzy.com.moon_news.com.yalantis.ucrop.view.CropImageView;
 
 /**

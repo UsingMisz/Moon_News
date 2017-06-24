@@ -14,6 +14,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import main.zzy.com.moon_news.R;
 import main.zzy.com.moon_news.com.edmodo.cropper.CropImageView;
 
 import java.io.File;

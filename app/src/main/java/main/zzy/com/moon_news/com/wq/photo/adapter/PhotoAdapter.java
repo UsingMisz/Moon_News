@@ -13,8 +13,10 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
+
+import main.zzy.com.moon_news.R;
 import main.zzy.com.moon_news.com.wq.photo.MediaChoseActivity;
-import com.wq.photo.R;
+
 import main.zzy.com.moon_news.com.wq.photo.widget.PickConfig;
 
 import java.util.LinkedHashMap;

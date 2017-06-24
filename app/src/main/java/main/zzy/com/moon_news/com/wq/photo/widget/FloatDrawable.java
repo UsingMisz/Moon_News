@@ -8,7 +8,7 @@ import android.graphics.Paint;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 
-import com.wq.photo.R;
+import main.zzy.com.moon_news.R;
 
 
 /**
@@ -37,7 +37,7 @@ public class FloatDrawable extends Drawable {
 	
 	private void init()
 	{
-		mCropPointDrawable=mContext.getResources().getDrawable(R.drawable.point);
+		mCropPointDrawable=mContext.getResources().getDrawable(R.mipmap.point);
 	}
 	
 	public int getCirleWidth()

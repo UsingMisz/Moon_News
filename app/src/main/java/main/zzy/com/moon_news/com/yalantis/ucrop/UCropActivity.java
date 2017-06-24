@@ -26,7 +26,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.wq.photo.R;
+import main.zzy.com.moon_news.R;
 import main.zzy.com.moon_news.com.yalantis.ucrop.util.BitmapLoadUtils;
 import main.zzy.com.moon_news.com.yalantis.ucrop.util.SelectedStateListDrawable;
 import main.zzy.com.moon_news.com.yalantis.ucrop.view.CropImageView;
@@ -237,9 +237,9 @@ public class UCropActivity extends AppCompatActivity {
         setupAppBar();
         initiateRootViews();
         setupAspectRatioWidget();
-        setupRotateWidget();
+     /*   setupRotateWidget();
         setupScaleWidget();
-        setupStatesWrapper();
+        setupStatesWrapper();*/
     }
 
     /**
@@ -258,7 +258,7 @@ public class UCropActivity extends AppCompatActivity {
         ((TextView) toolbar.findViewById(R.id.toolbar_title)).setTextColor(mToolbarTextColor);
 
         // Color buttons inside the Toolbar
-        Drawable stateButtonDrawable = ContextCompat.getDrawable(this, R.drawable.ucrop_ic_cross).mutate();
+        Drawable stateButtonDrawable = ContextCompat.getDrawable(this, R.mipmap.ucrop_ic_cross).mutate();
         stateButtonDrawable.setColorFilter(mToolbarTextColor, PorterDuff.Mode.SRC_ATOP);
         toolbar.setNavigationIcon(stateButtonDrawable);
 
@@ -294,14 +294,14 @@ public class UCropActivity extends AppCompatActivity {
         mWrapperStateScale.setOnClickListener(mStateClickListener);
 
         mLayoutAspectRatio = (ViewGroup) findViewById(R.id.layout_aspect_ratio);
-        mLayoutRotate = (ViewGroup) findViewById(R.id.layout_rotate_wheel);
-        mLayoutScale = (ViewGroup) findViewById(R.id.layout_scale_wheel);
+ /*       mLayoutRotate = (ViewGroup) findViewById(R.id.layout_rotate_wheel);
+        mLayoutScale = (ViewGroup) findViewById(R.id.layout_scale_wheel);*/
     }
 
     /**
      * Use {@link #mActiveWidgetColor} for color filter
      */
-    private void setupStatesWrapper() {
+   /* private void setupStatesWrapper() {
         ImageView stateScaleImageView = (ImageView) findViewById(R.id.image_view_state_scale);
         ImageView stateRotateImageView = (ImageView) findViewById(R.id.image_view_state_rotate);
         ImageView stateAspectRatioImageView = (ImageView) findViewById(R.id.image_view_state_aspect_ratio);
@@ -309,7 +309,7 @@ public class UCropActivity extends AppCompatActivity {
         stateScaleImageView.setImageDrawable(new SelectedStateListDrawable(stateScaleImageView.getDrawable(), mActiveWidgetColor));
         stateRotateImageView.setImageDrawable(new SelectedStateListDrawable(stateRotateImageView.getDrawable(), mActiveWidgetColor));
         stateAspectRatioImageView.setImageDrawable(new SelectedStateListDrawable(stateAspectRatioImageView.getDrawable(), mActiveWidgetColor));
-    }
+    }*/
 
 
     /**
@@ -359,7 +359,7 @@ public class UCropActivity extends AppCompatActivity {
         }
     }
 
-    private void setupRotateWidget() {
+  /*  private void setupRotateWidget() {
         mTextViewRotateAngle = ((TextView) findViewById(R.id.text_view_rotate));
         ((HorizontalProgressWheelView) findViewById(R.id.rotate_scroll_wheel))
                 .setScrollingListener(new HorizontalProgressWheelView.ScrollingListener() {
@@ -422,7 +422,7 @@ public class UCropActivity extends AppCompatActivity {
                     }
                 });
         ((HorizontalProgressWheelView) findViewById(R.id.scale_scroll_wheel)).setMiddleLineColor(mActiveWidgetColor);
-    }
+    }*/
 
     private void setAngleText(float angle) {
         if (mTextViewRotateAngle != null) {

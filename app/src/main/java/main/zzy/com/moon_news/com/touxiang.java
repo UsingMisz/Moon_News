@@ -44,7 +44,7 @@ public class touxiang {
                 .setUropOptions(options)
                 .maxPickSize(1)
                 .spanCount(4)
-                .isfirst(6)
+
                 .pickMode(chose_mode).build();
 
     }

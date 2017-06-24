@@ -20,5 +20,10 @@ public class Main_Content_News_Toutiao  extends Fragment{
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_main_content_news_toutiao,null,false);
+
+
     }
+
+
+
 }

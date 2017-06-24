@@ -3,8 +3,6 @@ package Dialog;
 
 import android.app.Activity;
 
-import android.content.Intent;
-import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 
 import android.view.View;
@@ -15,14 +13,15 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
-import com.touxiang;
-import com.wq.photo.MediaChoseActivity;
+
+
 
 import java.util.LinkedHashMap;
 
 import DB.DataBase;
-import main.zzy.com.moon_news.Personal_Activity;
 import main.zzy.com.moon_news.R;
+import main.zzy.com.moon_news.com.touxiang;
+
 
 /**
  * Created by Administrator on 2016/9/8.

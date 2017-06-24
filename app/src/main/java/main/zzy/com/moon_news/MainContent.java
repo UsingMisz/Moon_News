@@ -21,7 +21,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.wq.photo.widget.PickConfig;
+
 
 import java.util.ArrayList;
 
@@ -128,10 +128,15 @@ public class MainContent extends AppCompatActivity {
     }
 
 
+
+
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         return super.onCreateOptionsMenu(menu);
     }
+
+
 
 
 
@@ -210,7 +215,6 @@ public class MainContent extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 nightMode=new Control_NightMode(app,sun,MainContent.this);
-                shuaxin();
         }
         });
 

@@ -7,7 +7,7 @@ import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.widget.FrameLayout;
 
-import com.wq.photo.R;
+import main.zzy.com.moon_news.R;
 
 
 public class UCropView extends FrameLayout {

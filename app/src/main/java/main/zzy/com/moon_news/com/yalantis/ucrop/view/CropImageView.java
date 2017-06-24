@@ -11,7 +11,8 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 
-import com.wq.photo.R;
+
+import main.zzy.com.moon_news.R;
 import main.zzy.com.moon_news.com.yalantis.ucrop.util.CubicEasing;
 import main.zzy.com.moon_news.com.yalantis.ucrop.util.RectUtils;
 

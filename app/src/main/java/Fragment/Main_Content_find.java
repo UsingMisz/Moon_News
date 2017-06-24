@@ -6,6 +6,14 @@ package Fragment;
 public class Main_Content_find extends BaseFindFragment {
 
 
+    @Override
+    protected void content() {
+        super.content();
+    }
 
 
+    @Override
+    protected void cardDatas() {
+        super.cardDatas();
+    }
 }

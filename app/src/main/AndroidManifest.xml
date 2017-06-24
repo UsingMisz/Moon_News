@@ -14,7 +14,6 @@
 
     <!-- renren sso Permission for Unit Test -->
     <!-- QQ、QQ空间所需权限 -->
-    <uses-permission android:name="android.permission.GET_TASKS" />
     <uses-permission android:name="android.permission.SET_DEBUG_APP" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
@@ -91,15 +90,15 @@
 
 
         <activity
-            android:name="com.wq.photo.MediaChoseActivity"
+            android:name=".com.wq.photo.MediaChoseActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:label="图片剪裁" >
         </activity>
         <activity
-            android:name="com.wq.photo.CropImageActivity"
+            android:name=".com.wq.photo.CropImageActivity"
             android:label="CropImageActivity" >
         </activity>
-        <activity android:name="com.yalantis.ucrop.UCropActivity"
+        <activity android:name=".com.yalantis.ucrop.UCropActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             >
 

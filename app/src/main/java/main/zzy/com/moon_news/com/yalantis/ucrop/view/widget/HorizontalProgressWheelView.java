@@ -12,7 +12,7 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.wq.photo.R;
+import main.zzy.com.moon_news.R;
 
 
 /**

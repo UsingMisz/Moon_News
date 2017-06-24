@@ -30,10 +30,11 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
+import main.zzy.com.moon_news.R;
 import main.zzy.com.moon_news.com.edmodo.cropper.cropwindow.CropOverlayView;
 import main.zzy.com.moon_news.com.edmodo.cropper.cropwindow.edge.Edge;
 import main.zzy.com.moon_news.com.edmodo.cropper.util.ImageViewUtil;
-import com.wq.photo.R;
+
 
 /**
  * Custom view that provides cropping capabilities to an image.

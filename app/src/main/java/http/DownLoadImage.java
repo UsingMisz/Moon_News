@@ -4,7 +4,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.lidroid.xutils.BitmapUtils;
 
 import org.xutils.common.util.DensityUtil;
 import org.xutils.image.ImageOptions;

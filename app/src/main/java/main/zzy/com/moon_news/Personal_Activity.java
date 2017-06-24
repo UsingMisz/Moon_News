@@ -19,9 +19,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.touxiang;
-import com.wq.photo.widget.PickConfig;
-import com.yalantis.ucrop.UCrop;
+
 
 import java.io.File;
 import java.util.ArrayList;
@@ -31,6 +29,7 @@ import DB.DataBase;
 import Dialog.Dialogs;
 import Tools.Login_control;
 import http.DownLoadImage;
+import main.zzy.com.moon_news.com.wq.photo.widget.PickConfig;
 
 public class Personal_Activity extends AppCompatActivity {
     private FilterApplication app;

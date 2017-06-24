@@ -6,8 +6,10 @@ import android.os.Build;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.umeng.socialize.Config;
@@ -25,6 +27,7 @@ public class Login_Activity extends AppCompatActivity {
     private ImageView touxiang;
     private Login_control control;
      private  FilterApplication app;
+    private TextView p_user,p_password;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,7 +42,22 @@ public class Login_Activity extends AppCompatActivity {
         control = new Login_control(this, app);
         qq = (ImageView) findViewById(R.id.Icon_qq);
         touxiang = (ImageView) findViewById(R.id.login_touxiang);
+        p_user= (TextView) findViewById(R.id.Login_user);
+        p_password= (TextView) findViewById(R.id.login_password);
+         huanhuang();
+    }
 
+    private void huanhuang() {
+        p_user.setOnEditorActionListener(new TextView.OnEditorActionListener() {
+            @Override
+            public boolean onEditorAction(TextView textView, int i, KeyEvent keyEvent) {
+                if(i==KeyEvent.KEYCODE_ENTER){
+
+                    return true;
+                }
+                return false;
+            }
+        });
     }
 
 
